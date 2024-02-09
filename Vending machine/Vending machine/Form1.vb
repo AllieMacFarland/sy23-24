@@ -26,6 +26,25 @@
     End Sub
 
     Private Sub CS_CoinReturnEvent(D As Integer, Q As Integer, DM As Integer, N As Integer) Handles CS.CoinReturnEvent
-        BackColor = Color.Red
+        If D > 0 Then
+            Dollars.Visible = True
+        Else
+            Dollars.Visible = False
+        End If
+        If Q > 0 Then
+            Quarter.Visible = True
+        Else
+            Quarter.Visible = False
+        End If
+        If N > 0 Then
+            Nickles.Visible = True
+        Else
+            Nickles.Visible = False
+        End If
+        If DM > 0 Then
+            Dimes.Visible = True
+        Else
+            Dimes.Visible = False
+        End If
     End Sub
 End Class
