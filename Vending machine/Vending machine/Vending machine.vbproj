@@ -74,11 +74,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CoinSlot.vb" />
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Form2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -104,8 +103,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -143,6 +142,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Doritos.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lays.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Barb.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sour.jfif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

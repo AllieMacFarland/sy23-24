@@ -1,28 +1,29 @@
-﻿Public Class Form1
+﻿Imports System.Reflection.Emit
+Public Class Form2
     Dim WithEvents CS As New CoinSlot
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         CS.InsertQuarter()
-        Label1.Text = CS.Total.ToString("C2")
+        TotalLabel.Text = CS.Total.ToString("C2")
     End Sub
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         CS.InsertDollar()
-        Label1.Text = CS.Total.ToString("C2")
+        TotalLabel.Text = CS.Total.ToString("C2")
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         CS.InsertNickle()
-        Label1.Text = CS.Total.ToString("C2")
+        TotalLabel.Text = CS.Total.ToString("C2")
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         CS.InsertDime()
-        Label1.Text = CS.Total.ToString("C2")
+        TotalLabel.Text = CS.Total.ToString("C2")
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         CS.CoinReturn()
-        Label1.Text = CS.Total.ToString("C2")
+        TotalLabel.Text = CS.Total.ToString("C2")
     End Sub
 
     Private Sub CS_CoinReturnEvent(D As Integer, Q As Integer, DM As Integer, N As Integer) Handles CS.CoinReturnEvent
@@ -46,5 +47,21 @@
         Else
             Dimes.Visible = False
         End If
+    End Sub
+
+    Private Sub CS_Dispense(P As Image) Handles CS.Dispense
+        ProductPB.Image = P
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Select Case IDTB.Text
+            Case ProductControl1.ProductID
+                CS.Buy(ProductControl1)
+            Case 2
+
+            Case Else
+
+        End Select
+        TotalLabel.Text = CS.Total.ToString("C2")
     End Sub
 End Class
