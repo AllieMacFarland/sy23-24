@@ -57,10 +57,20 @@ Public Class Form2
         Select Case IDTB.Text
             Case ProductControl1.ProductID
                 CS.Buy(ProductControl1)
-            Case 2
-
-            Case Else
-
+            Case ProductControl2.ProductID
+                CS.Buy(ProductControl2)
+            Case ProductControl3.ProductID
+                CS.Buy(ProductControl3)
+            Case ProductControl4.ProductID
+                CS.Buy(ProductControl4)
+            Case ProductControl5.ProductID
+                CS.Buy(ProductControl5)
+            Case ProductControl6.ProductID
+                CS.Buy(ProductControl6)
+            Case ProductControl7.ProductID
+                CS.Buy(ProductControl7)
+            Case ProductControl8.ProductID
+                CS.Buy(ProductControl8)
         End Select
         TotalLabel.Text = CS.Total.ToString("C2")
     End Sub

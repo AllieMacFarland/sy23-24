@@ -152,5 +152,47 @@
   <ItemGroup>
     <None Include="Resources\sour.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Takis.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Takis1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Takis2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Takis21.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\takis3.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kit.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kit1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snickers.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nerds.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dort.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheet.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fun.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dor.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
