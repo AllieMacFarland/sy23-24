@@ -31,10 +31,6 @@ Partial Class Form2
         Me.Dollars = New System.Windows.Forms.PictureBox()
         Me.Nickles = New System.Windows.Forms.PictureBox()
         Me.Quarter = New System.Windows.Forms.PictureBox()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.ProductControl16 = New Vending_machine.ProductControl()
         Me.ProductControl15 = New Vending_machine.ProductControl()
         Me.ProductControl14 = New Vending_machine.ProductControl()
@@ -150,50 +146,6 @@ Partial Class Form2
         Me.Quarter.TabIndex = 22
         Me.Quarter.TabStop = False
         Me.Quarter.Visible = False
-        '
-        'Button4
-        '
-        Me.Button4.BackgroundImage = Global.Vending_machine.My.Resources.Resources.Dollar
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button4.Location = New System.Drawing.Point(860, 12)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(77, 69)
-        Me.Button4.TabIndex = 19
-        Me.Button4.Text = "Dollar"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.BackgroundImage = Global.Vending_machine.My.Resources.Resources.dime
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button3.Location = New System.Drawing.Point(860, 162)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(77, 69)
-        Me.Button3.TabIndex = 18
-        Me.Button3.Text = "Dimes"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.BackgroundImage = Global.Vending_machine.My.Resources.Resources.nickles
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button2.Location = New System.Drawing.Point(860, 237)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(77, 69)
-        Me.Button2.TabIndex = 17
-        Me.Button2.Text = "Nickles"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.BackgroundImage = Global.Vending_machine.My.Resources.Resources.Quart
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(860, 87)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(77, 69)
-        Me.Button1.TabIndex = 16
-        Me.Button1.Text = "Quarter"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'ProductControl16
         '
@@ -418,10 +370,6 @@ Partial Class Form2
         Me.Controls.Add(Me.Quarter)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.TotalLabel)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
         Me.Name = "Form2"
         Me.Text = "Form2"
         CType(Me.ProductPB, System.ComponentModel.ISupportInitialize).EndInit()
@@ -446,10 +394,6 @@ Partial Class Form2
     Friend WithEvents Quarter As PictureBox
     Friend WithEvents Button5 As Button
     Friend WithEvents TotalLabel As Label
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
     Friend WithEvents ProductPB As PictureBox
     Friend WithEvents ProductControl5 As ProductControl
     Friend WithEvents ProductControl6 As ProductControl
