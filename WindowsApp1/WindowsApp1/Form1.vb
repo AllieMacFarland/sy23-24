@@ -3,7 +3,8 @@
 Public Class Form1
     Dim movespeed As Integer = 10
     Dim isjumping As Boolean
-    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
+    Dim coin As Integer
+    Private Sub Form1_KeyDown(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyDown
         Select Case e.KeyCode
             Case Keys.Right
                 timerRight.Start()
@@ -17,7 +18,7 @@ Public Class Form1
     Private Sub timerRight_Tick(sender As Object, e As EventArgs) Handles timerRight.Tick
         picPlayer.Left += 15
     End Sub
-    Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles Me.KeyUp
+    Private Sub Form1_KeyUp(sender As Object, e As KeyEventArgs) Handles TextBox1.KeyUp
         Select Case e.KeyCode
             Case Keys.Right
                 timerRight.Stop()
@@ -36,6 +37,7 @@ Public Class Form1
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         timerGameLogic.Start()
+
     End Sub
     Private Sub timerGameLogic_Tick(sender As Object, e As EventArgs) Handles timerGameLogic.Tick
         If picPlayer.Bounds.IntersectsWith(picGround.Bounds) Then
@@ -52,15 +54,29 @@ Public Class Form1
                         timerGravity.Stop()
                     End If
                 End If
-                If b.Tag = "win" Then
-                    If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
-                        mousePictureBox.Visible = False
-                    End If
+            End If
+            If b.Tag = "Lose" Then
+                If picPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                    picPlayer.Left = 534
+                    picPlayer.Top = 364
+                    mousePictureBox.Visible = True
+                End If
+            End If
+            If b.Tag = "coin" Then
+                If b.Visible And picPlayer.Bounds.IntersectsWith(b.Bounds) Then
+                    b.Visible = False
+                    coin += 1
+                    ScoreLabel.Text = coin
                 End If
             End If
         Next
+
     End Sub
     Private Sub timerGravity_Tick(sender As Object, e As EventArgs) Handles timerGravity.Tick
         picPlayer.Top += movespeed
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles ScoreLabel.Click
+
     End Sub
 End Class
