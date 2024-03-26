@@ -27,9 +27,20 @@ Partial Class Form2
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -87,32 +98,155 @@ Partial Class Form2
         Me.Button8.Text = "Mens"
         Me.Button8.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'Label1
         '
-        Me.PictureBox1.Image = Global.clothe_shop.My.Resources.Resources.Shirt_1
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 193)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(167, 186)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 14
-        Me.PictureBox1.TabStop = False
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(12, 425)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(53, 20)
+        Me.Label1.TabIndex = 15
+        Me.Label1.Text = "Price:"
         '
-        'TextBox2
+        'Label2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(29, 385)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox2.TabIndex = 15
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(126, 425)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(40, 20)
+        Me.Label2.TabIndex = 16
+        Me.Label2.Text = "8.36"
+        '
+        'Button15
+        '
+        Me.Button15.Image = Global.clothe_shop.My.Resources.Resources.shirt_111
+        Me.Button15.Location = New System.Drawing.Point(958, 488)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(215, 235)
+        Me.Button15.TabIndex = 26
+        Me.Button15.UseVisualStyleBackColor = True
+        '
+        'Button14
+        '
+        Me.Button14.Image = Global.clothe_shop.My.Resources.Resources.shirt_101
+        Me.Button14.Location = New System.Drawing.Point(719, 488)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(215, 235)
+        Me.Button14.TabIndex = 25
+        Me.Button14.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.Image = Global.clothe_shop.My.Resources.Resources.shirt_9
+        Me.Button13.Location = New System.Drawing.Point(481, 488)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(215, 235)
+        Me.Button13.TabIndex = 24
+        Me.Button13.UseVisualStyleBackColor = True
+        '
+        'Button12
+        '
+        Me.Button12.Image = Global.clothe_shop.My.Resources.Resources.shirt_8
+        Me.Button12.Location = New System.Drawing.Point(246, 488)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(215, 235)
+        Me.Button12.TabIndex = 23
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button11
+        '
+        Me.Button11.Image = Global.clothe_shop.My.Resources.Resources.shirt_6
+        Me.Button11.Location = New System.Drawing.Point(12, 488)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(215, 235)
+        Me.Button11.TabIndex = 22
+        Me.Button11.UseVisualStyleBackColor = True
+        '
+        'Button10
+        '
+        Me.Button10.Image = Global.clothe_shop.My.Resources.Resources.shirt_7
+        Me.Button10.Location = New System.Drawing.Point(1197, 187)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(215, 235)
+        Me.Button10.TabIndex = 21
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.Image = Global.clothe_shop.My.Resources.Resources.shirt_5
+        Me.Button9.Location = New System.Drawing.Point(958, 187)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(215, 235)
+        Me.Button9.TabIndex = 20
+        Me.Button9.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Image = Global.clothe_shop.My.Resources.Resources.shirt_4
+        Me.Button4.Location = New System.Drawing.Point(719, 187)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(215, 235)
+        Me.Button4.TabIndex = 19
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Image = Global.clothe_shop.My.Resources.Resources.shirt_3
+        Me.Button3.Location = New System.Drawing.Point(481, 187)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(215, 235)
+        Me.Button3.TabIndex = 18
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.BackgroundImage = Global.clothe_shop.My.Resources.Resources.Shirt_1
+        Me.Button2.Image = Global.clothe_shop.My.Resources.Resources.shirt_2
+        Me.Button2.Location = New System.Drawing.Point(246, 187)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(215, 235)
+        Me.Button2.TabIndex = 17
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.BackgroundImage = Global.clothe_shop.My.Resources.Resources.Shirt_1
+        Me.Button1.Location = New System.Drawing.Point(12, 187)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(215, 235)
+        Me.Button1.TabIndex = 14
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button16
+        '
+        Me.Button16.Image = Global.clothe_shop.My.Resources.Resources.shirt_12
+        Me.Button16.Location = New System.Drawing.Point(1197, 488)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(215, 235)
+        Me.Button16.TabIndex = 27
+        Me.Button16.UseVisualStyleBackColor = True
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1527, 850)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.ClientSize = New System.Drawing.Size(1527, 1055)
+        Me.Controls.Add(Me.Button16)
+        Me.Controls.Add(Me.Button15)
+        Me.Controls.Add(Me.Button14)
+        Me.Controls.Add(Me.Button13)
+        Me.Controls.Add(Me.Button12)
+        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button6)
@@ -120,7 +254,6 @@ Partial Class Form2
         Me.Controls.Add(Me.Button8)
         Me.Name = "Form2"
         Me.Text = "V"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -131,6 +264,18 @@ Partial Class Form2
     Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button9 As Button
+    Friend WithEvents Button10 As Button
+    Friend WithEvents Button11 As Button
+    Friend WithEvents Button12 As Button
+    Friend WithEvents Button13 As Button
+    Friend WithEvents Button14 As Button
+    Friend WithEvents Button15 As Button
+    Friend WithEvents Button16 As Button
 End Class
