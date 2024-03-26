@@ -221,5 +221,26 @@
   <ItemGroup>
     <None Include="Resources\shirt 111.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hoodie1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoodie2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoodie3.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoodie4.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoodie5.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoodie6.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoodie7.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

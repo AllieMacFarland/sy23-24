@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -29,6 +29,13 @@ Partial Class Form2
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
@@ -40,7 +47,6 @@ Partial Class Form2
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -117,6 +123,69 @@ Partial Class Form2
         Me.Label2.Size = New System.Drawing.Size(40, 20)
         Me.Label2.TabIndex = 16
         Me.Label2.Text = "8.36"
+        '
+        'Button22
+        '
+        Me.Button22.Image = Global.clothe_shop.My.Resources.Resources.hoodie7
+        Me.Button22.Location = New System.Drawing.Point(1197, 795)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(215, 235)
+        Me.Button22.TabIndex = 33
+        Me.Button22.UseVisualStyleBackColor = True
+        '
+        'Button21
+        '
+        Me.Button21.Image = Global.clothe_shop.My.Resources.Resources.hoodie5
+        Me.Button21.Location = New System.Drawing.Point(958, 795)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(215, 235)
+        Me.Button21.TabIndex = 32
+        Me.Button21.UseVisualStyleBackColor = True
+        '
+        'Button20
+        '
+        Me.Button20.Image = Global.clothe_shop.My.Resources.Resources.hoodie4
+        Me.Button20.Location = New System.Drawing.Point(719, 795)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(215, 235)
+        Me.Button20.TabIndex = 31
+        Me.Button20.UseVisualStyleBackColor = True
+        '
+        'Button19
+        '
+        Me.Button19.Image = Global.clothe_shop.My.Resources.Resources.hoodie3
+        Me.Button19.Location = New System.Drawing.Point(481, 795)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(215, 235)
+        Me.Button19.TabIndex = 30
+        Me.Button19.UseVisualStyleBackColor = True
+        '
+        'Button18
+        '
+        Me.Button18.Image = Global.clothe_shop.My.Resources.Resources.hoodie2
+        Me.Button18.Location = New System.Drawing.Point(246, 795)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(215, 235)
+        Me.Button18.TabIndex = 29
+        Me.Button18.UseVisualStyleBackColor = True
+        '
+        'Button17
+        '
+        Me.Button17.Image = Global.clothe_shop.My.Resources.Resources.Hoodie1
+        Me.Button17.Location = New System.Drawing.Point(12, 795)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(215, 235)
+        Me.Button17.TabIndex = 28
+        Me.Button17.UseVisualStyleBackColor = True
+        '
+        'Button16
+        '
+        Me.Button16.Image = Global.clothe_shop.My.Resources.Resources.shirt_12
+        Me.Button16.Location = New System.Drawing.Point(1197, 488)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(215, 235)
+        Me.Button16.TabIndex = 27
+        Me.Button16.UseVisualStyleBackColor = True
         '
         'Button15
         '
@@ -218,21 +287,18 @@ Partial Class Form2
         Me.Button1.TabIndex = 14
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button16
-        '
-        Me.Button16.Image = Global.clothe_shop.My.Resources.Resources.shirt_12
-        Me.Button16.Location = New System.Drawing.Point(1197, 488)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(215, 235)
-        Me.Button16.TabIndex = 27
-        Me.Button16.UseVisualStyleBackColor = True
-        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1527, 1055)
+        Me.ClientSize = New System.Drawing.Size(1924, 1055)
+        Me.Controls.Add(Me.Button22)
+        Me.Controls.Add(Me.Button21)
+        Me.Controls.Add(Me.Button20)
+        Me.Controls.Add(Me.Button19)
+        Me.Controls.Add(Me.Button18)
+        Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
@@ -278,4 +344,10 @@ Partial Class Form2
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
+    Friend WithEvents Button17 As Button
+    Friend WithEvents Button18 As Button
+    Friend WithEvents Button19 As Button
+    Friend WithEvents Button20 As Button
+    Friend WithEvents Button21 As Button
+    Friend WithEvents Button22 As Button
 End Class
