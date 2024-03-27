@@ -242,5 +242,95 @@
   <ItemGroup>
     <None Include="Resources\hoodie7.jfif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shirt13.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shirt 14.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shirt 15.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shirt 16.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoodie61.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoodie8.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pants1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pants2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pants3.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pants4.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pants5.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pants6.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pants7.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pants8.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts3.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts4.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts5.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts6.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts7.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shorts8.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PJ1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PJ2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PJ3.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PJ4.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PJ5.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pj6.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PJ7.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PJ8.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
