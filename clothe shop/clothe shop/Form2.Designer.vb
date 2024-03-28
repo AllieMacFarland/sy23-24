@@ -25,6 +25,9 @@ Partial Class Form2
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Button29 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Button58 = New System.Windows.Forms.Button()
         Me.Button28 = New System.Windows.Forms.Button()
         Me.Button27 = New System.Windows.Forms.Button()
         Me.Button26 = New System.Windows.Forms.Button()
@@ -49,9 +52,6 @@ Partial Class Form2
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.Button58 = New System.Windows.Forms.Button()
         Me.Button30 = New System.Windows.Forms.Button()
         Me.Button31 = New System.Windows.Forms.Button()
         Me.Button32 = New System.Windows.Forms.Button()
@@ -135,6 +135,61 @@ Partial Class Form2
         Me.Button29.TabIndex = 69
         Me.Button29.Text = "Next ---->"
         Me.Button29.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Font = New System.Drawing.Font("Perpetua Titling MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.Location = New System.Drawing.Point(0, 0)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(165, 36)
+        Me.Button7.TabIndex = 40
+        Me.Button7.Text = "Home"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.Button58)
+        Me.TabPage2.Controls.Add(Me.Button30)
+        Me.TabPage2.Controls.Add(Me.Button31)
+        Me.TabPage2.Controls.Add(Me.Button32)
+        Me.TabPage2.Controls.Add(Me.Button33)
+        Me.TabPage2.Controls.Add(Me.Button34)
+        Me.TabPage2.Controls.Add(Me.Button35)
+        Me.TabPage2.Controls.Add(Me.Button36)
+        Me.TabPage2.Controls.Add(Me.Button37)
+        Me.TabPage2.Controls.Add(Me.Button38)
+        Me.TabPage2.Controls.Add(Me.Button39)
+        Me.TabPage2.Controls.Add(Me.Button40)
+        Me.TabPage2.Controls.Add(Me.Button41)
+        Me.TabPage2.Controls.Add(Me.Button42)
+        Me.TabPage2.Controls.Add(Me.Button43)
+        Me.TabPage2.Controls.Add(Me.Button44)
+        Me.TabPage2.Controls.Add(Me.Button45)
+        Me.TabPage2.Controls.Add(Me.Button46)
+        Me.TabPage2.Controls.Add(Me.Button47)
+        Me.TabPage2.Controls.Add(Me.Button48)
+        Me.TabPage2.Controls.Add(Me.Button49)
+        Me.TabPage2.Controls.Add(Me.Button50)
+        Me.TabPage2.Controls.Add(Me.Button51)
+        Me.TabPage2.Controls.Add(Me.Button52)
+        Me.TabPage2.Controls.Add(Me.Button53)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(1919, 1046)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "TabPage2"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Button58
+        '
+        Me.Button58.Location = New System.Drawing.Point(3, 6)
+        Me.Button58.Name = "Button58"
+        Me.Button58.Size = New System.Drawing.Size(75, 23)
+        Me.Button58.TabIndex = 69
+        Me.Button58.Text = "<---- Back"
+        Me.Button58.UseVisualStyleBackColor = True
         '
         'Button28
         '
@@ -352,61 +407,6 @@ Partial Class Form2
         Me.Button1.Size = New System.Drawing.Size(215, 235)
         Me.Button1.TabIndex = 45
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button7
-        '
-        Me.Button7.Font = New System.Drawing.Font("Perpetua Titling MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(0, 0)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(7, 6, 7, 6)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(165, 36)
-        Me.Button7.TabIndex = 40
-        Me.Button7.Text = "Home"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Controls.Add(Me.Button58)
-        Me.TabPage2.Controls.Add(Me.Button30)
-        Me.TabPage2.Controls.Add(Me.Button31)
-        Me.TabPage2.Controls.Add(Me.Button32)
-        Me.TabPage2.Controls.Add(Me.Button33)
-        Me.TabPage2.Controls.Add(Me.Button34)
-        Me.TabPage2.Controls.Add(Me.Button35)
-        Me.TabPage2.Controls.Add(Me.Button36)
-        Me.TabPage2.Controls.Add(Me.Button37)
-        Me.TabPage2.Controls.Add(Me.Button38)
-        Me.TabPage2.Controls.Add(Me.Button39)
-        Me.TabPage2.Controls.Add(Me.Button40)
-        Me.TabPage2.Controls.Add(Me.Button41)
-        Me.TabPage2.Controls.Add(Me.Button42)
-        Me.TabPage2.Controls.Add(Me.Button43)
-        Me.TabPage2.Controls.Add(Me.Button44)
-        Me.TabPage2.Controls.Add(Me.Button45)
-        Me.TabPage2.Controls.Add(Me.Button46)
-        Me.TabPage2.Controls.Add(Me.Button47)
-        Me.TabPage2.Controls.Add(Me.Button48)
-        Me.TabPage2.Controls.Add(Me.Button49)
-        Me.TabPage2.Controls.Add(Me.Button50)
-        Me.TabPage2.Controls.Add(Me.Button51)
-        Me.TabPage2.Controls.Add(Me.Button52)
-        Me.TabPage2.Controls.Add(Me.Button53)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1919, 1046)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "TabPage2"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'Button58
-        '
-        Me.Button58.Location = New System.Drawing.Point(3, 6)
-        Me.Button58.Name = "Button58"
-        Me.Button58.Size = New System.Drawing.Size(75, 23)
-        Me.Button58.TabIndex = 69
-        Me.Button58.Text = "<---- Back"
-        Me.Button58.UseVisualStyleBackColor = True
         '
         'Button30
         '

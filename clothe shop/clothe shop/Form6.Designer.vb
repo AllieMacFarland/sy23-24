@@ -30,7 +30,7 @@ Partial Class Form6
         Me.ItemInfo1.Location = New System.Drawing.Point(283, 41)
         Me.ItemInfo1.Name = "ItemInfo1"
         Me.ItemInfo1.picture = Nothing
-        Me.ItemInfo1.Size = New System.Drawing.Size(653, 514)
+        Me.ItemInfo1.Size = New System.Drawing.Size(532, 428)
         Me.ItemInfo1.TabIndex = 0
         '
         'Form6

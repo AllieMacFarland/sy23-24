@@ -239,6 +239,7 @@ Partial Class Form5
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        '<<<<<<< HEAD
         Me.ClientSize = New System.Drawing.Size(1769, 1055)
         Me.Controls.Add(Me.Button22)
         Me.Controls.Add(Me.Button21)
@@ -252,6 +253,9 @@ Partial Class Form5
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
+        '=======
+        Me.ClientSize = New System.Drawing.Size(1208, 630)
+        '>>>>>>> main
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
