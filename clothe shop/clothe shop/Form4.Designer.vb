@@ -58,10 +58,10 @@ Partial Class Form4
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Location = New System.Drawing.Point(1, 0)
+        Me.TabControl1.Location = New System.Drawing.Point(1, -19)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1926, 1057)
+        Me.TabControl1.Size = New System.Drawing.Size(1926, 1076)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage1
@@ -94,7 +94,7 @@ Partial Class Form4
         Me.TabPage1.Location = New System.Drawing.Point(4, 25)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1918, 1028)
+        Me.TabPage1.Size = New System.Drawing.Size(1918, 1047)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "TabPage1"
         Me.TabPage1.UseVisualStyleBackColor = True
